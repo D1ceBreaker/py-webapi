@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "onlybrosv2"
+version = "0.1.0"
+description = ""
+authors = ["bulygin.rk <bulygin.rk@dozen.mephi.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+SQLAlchemy = "^2.0.36"
+alembic = "^1.13.3"
+aiosqlite = "^0.20.0"
+pydantic-settings = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
